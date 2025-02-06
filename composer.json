@@ -1,0 +1,16 @@
+{
+    "name": "spotify-clone/app",
+    "description": "Application de streaming musical",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "app/helpers/functions.php"
+        ]
+    },
+    "require": {
+        "php": ">=7.4"
+    }
+}
