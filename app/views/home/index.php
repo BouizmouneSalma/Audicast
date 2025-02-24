@@ -1,4 +1,3 @@
-<!-- Hero Section -->
 <section class="hero">
     <div class="hero-content">
         <h1>La musique pour tous</h1>
@@ -7,10 +6,8 @@
     </div>
 </section>
 
-<!-- Search Section -->
 <?php include '../app/views/partials/_search.php'; ?>
 
-<!-- Playlists Section -->
 <section class="playlists">
     <h2>Playlists en vedette</h2>
     <div class="playlist-grid">

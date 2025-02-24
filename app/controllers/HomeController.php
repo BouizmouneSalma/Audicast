@@ -10,10 +10,9 @@ class HomeController {
     }
 
     public function index() {
-        // Récupérer les playlists depuis le service
+
         $playlists = $this->playlistService->getFeaturedPlaylists();
 
-        // Rendre la vue avec les données
         return view('home/index', [
             'pageTitle' => 'MusicStream - Accueil',
             'playlists' => $playlists,
